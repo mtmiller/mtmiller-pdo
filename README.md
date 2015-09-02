@@ -10,6 +10,8 @@ Once these externals are in place, the site is built and deployed with
     jekyll build
     rsync -avz _site/ people.debian.org:public_html
 
+and the site appears [here][site].
+
 # License
 
 The content of this site is licensed under a Creative Commons
@@ -25,3 +27,4 @@ license.
 [bootstrap]: http://getbootstrap.com/
 [cc-by-sa-license]: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 [mit-license]: http://spdx.org/licenses/MIT
+[site]: https://people.debian.org/~mtmiller/
