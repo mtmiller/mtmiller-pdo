@@ -8,3 +8,4 @@ description: >
 baseurl: "/~mtmiller" # the subpath of your site, e.g. /blog/
 url: "https://people.debian.org" # the base hostname & protocol for your site
 permalink: pretty
+exclude: ["AUTHORS", "LICENSE", "README.md"]
