@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/site.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="vcs-git" href="https://github.com/mtmiller/mtmiller-pdo.git" title="mtmiller-pdo git repository">
-  <link rel="vcs-git" href="git://anonscm.debian.org/users/mtmiller/mtmiller-pdo.git" title="mtmiller-pdo git repository">
-  <link rel="vcs-git" href="https://anonscm.debian.org/cgit/users/mtmiller/mtmiller-pdo.git/" title="mtmiller-pdo git repository">
+  {% for giturl in site.giturls %}
+    <link rel="vcs-git" href="{{ giturl }}" title="mtmiller-pdo git repository">
+  {% endfor %}
 </head>

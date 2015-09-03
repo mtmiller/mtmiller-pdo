@@ -8,3 +8,7 @@ baseurl: "/~mtmiller"
 url: "https://people.debian.org"
 permalink: pretty
 exclude: ["AUTHORS", "LICENSE", "README.md"]
+giturls:
+ - https://github.com/mtmiller/mtmiller-pdo.git
+ - git://anonscm.debian.org/users/mtmiller/mtmiller-pdo.git
+ - https://anonscm.debian.org/cgit/users/mtmiller/mtmiller-pdo.git
