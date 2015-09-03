@@ -1,10 +1,10 @@
-# Site settings
 title: ~mtmiller
-email: mtmiller@debian.org
 description: >
   Debian development information, custom packages, and status of Debian
   Developer mtmiller.
-baseurl: "/~mtmiller" # the subpath of your site, e.g. /blog/
-url: "https://people.debian.org" # the base hostname & protocol for your site
+author: Mike Miller
+email: mtmiller@debian.org
+baseurl: "/~mtmiller"
+url: "https://people.debian.org"
 permalink: pretty
 exclude: ["AUTHORS", "LICENSE", "README.md"]
